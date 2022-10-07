@@ -1,0 +1,18 @@
+### TASK requests
+
+GET http://127.0.0.1:8000/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+
+### Create a new task
+
+POST http://127.0.0.1:8000/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+{
+	"title": "My inserted task",
+	"description": "This is a simple description",
+	"status": "OPEN"
+}
